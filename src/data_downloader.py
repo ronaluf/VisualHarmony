@@ -116,10 +116,10 @@ def download_images(image_dir, track_genres):
 
 def download_and_prepare_data(image_dir='data/images', music_dir='data/music'):
     # Step 1: Download FMA Small dataset
-    #download_fma_data(music_dir)
+    download_fma_data(music_dir)
 
     # Step 2: Download FMA metadata
-    #download_fma_metadata()
+    download_fma_metadata()
 
     # Step 3: Get track genres
     track_genres = get_track_genres()
