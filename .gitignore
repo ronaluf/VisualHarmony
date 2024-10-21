@@ -1,0 +1,27 @@
+# Ignore data directories
+data/
+fma_small/
+fma_metadata/
+__pycache__/
+
+# Ignore results and generated outputs
+results/
+
+# Ignore model checkpoints and saved models
+models/saved/
+
+# Ignore virtual environment directory
+venv/
+
+# Ignore any zip files
+*.zip
+
+# Ignore any audio or image files in root or subdirectories
+*.mp3
+*.wav
+*.jpg
+*.png
+
+# Ignore other temporary files
+*.pyc
+.DS_Store
