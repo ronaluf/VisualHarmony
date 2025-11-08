@@ -1,0 +1,29 @@
+# Cloned external repositories (git submodules would be better, but keeping simple)
+code/ttt-lm-pytorch/
+code/ttt-lm-jax/
+code/LLaDA/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter notebooks
+*.ipynb_checkpoints/
+
+# Data files
+data/
+*.pkl
+*.pt
+*.pth
+
+# Logs
+logs/
+*.log
+
+# Experiments
+analysis/experiments/
+analysis/checkpoints/
+
+# Papers (will download separately if needed)
+papers/*.pdf
