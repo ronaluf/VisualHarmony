@@ -2,6 +2,7 @@
 code/ttt-lm-pytorch/
 code/ttt-lm-jax/
 code/LLaDA/
+code/ttt-video-dit/
 
 # Python cache
 __pycache__/
